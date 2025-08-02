@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenalan Yuk!</title>
+    <style>
+        /* CSS untuk tampilan */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            
+            /* --- GANTI BACKGROUND DI SINI --- */
+            background-image: url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1912&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Membuat background tidak ikut scroll */
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 380px;
+            width: 100%;
+            
+            /* --- GANTI WARNA BOX DI SINI --- */
+            background-color: rgba(255, 105, 180, 0.85); /* Warna pink dengan sedikit transparansi */
+            backdrop-filter: blur(10px); /* Efek blur untuk background di belakang box */
+            -webkit-backdrop-filter: blur(10px);
+
+            border-radius: 25px;
+            padding: 30px;
+            text-align: center;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-pic {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 4px solid #ffffff; /* Border putih agar kontras dengan box pink */
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .username {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .links-container a {
+            background-color: rgba(255, 255, 255, 0.25); /* Tombol putih transparan */
+            color: #ffffff;
+            padding: 12px 15px;
+            margin: 12px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s, transform 0.2s;
+
+            /* Menggunakan Flexbox untuk menata ikon dan teks */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .links-container a:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+        }
+        
+        /* Style untuk ikon/gambar di dalam tombol */
+        .link-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px; /* Jarak antara ikon dan teks */
+        }
+
+        /* Tombol CTA utama dibuat beda agar lebih menonjol */
+        .links-container a.primary {
+            background-color: #ffffff;
+            color: #d93b83; /* Warna teks pink tua */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- GANTI BAGIAN INI SESUAI KEBUTUHAN -->
+        <img src="https://i.ibb.co/2gchj6Y/profile.jpg" alt="Foto Profil" class="profile-pic">
+        <h1 class="username">Amanda, 23</h1>
+        <p class="bio">Jangan diliatin aja, yuk kenalan lebih deket. Klik link di bawah ya! 👇</p>
+
+        <div class="links-container">
+            <!--
+                - Ganti tanda # dengan link tujuan Adsterra kamu.
+                - Ganti src="..." pada <img> dengan URL ikon/gambar kecil kamu.
+            -->
+            <a href="#" class="primary">
+                <img src="https://i.ibb.co/Rpj5fM4/video-play.png" alt="ikon video" class="link-icon">
+                VIDEO BARU (KHUSUS HARI INI)
+            </a>
+            <a href="#">
+                <img src="https://i.ibb.co/68v8zct/chat.png" alt="ikon chat" class="link-icon">
+                CHAT PRIBADI SAMA AKU
+            </a>
+            <a href="#">
+                <img src="https://i.ibb.co/mG7XwZ1/telegram.png" alt="ikon telegram" class="link-icon">
+                JOIN GRUP TELEGRAM EKSKLUSIF
+            </a>
+            <a href="#">
+                <img src="https://i.ibb.co/PQtst6B/instagram.png" alt="ikon instagram" class="link-icon">
+                LIHAT STORY & FOTO LAINNYA
+            </a>
+        </div>
+        <!-- AKHIR BAGIAN YANG PERLU DIGANTI -->
+    </div>
+
+</body>
+</html>
