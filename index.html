@@ -3,137 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nice to Meet You!</title>
+    <title>Feeling Lonely?</title>
     <style>
-        /* CSS for the layout */
+        /* CSS-nya masih sama, tidak perlu diubah */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: #ffffff;
-            margin: 0;
-            padding: 20px;
-            min-height: 100vh;
-            
-            /* --- CHANGE BACKGROUND HERE --- */
-            background-image: url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1912&auto=format&fit=crop');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed; /* Keeps the background from scrolling */
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            max-width: 380px;
-            width: 100%;
-            
-            /* --- CHANGE BOX COLOR HERE --- */
-            background-color: rgba(255, 105, 180, 0.85); /* Pink color with slight transparency */
-            backdrop-filter: blur(10px); /* Blur effect for the background behind the box */
-            -webkit-backdrop-filter: blur(10px);
-
-            border-radius: 25px;
-            padding: 30px;
-            text-align: center;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .profile-pic {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            border: 4px solid #ffffff; /* White border for contrast */
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-
-        .username {
-            font-size: 1.6rem;
-            font-weight: 700;
-            margin-bottom: 5px;
-            text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-        }
-
-        .bio {
-            font-size: 0.95rem;
-            margin-bottom: 30px;
-            font-weight: 400;
-        }
-
-        .links-container a {
-            background-color: rgba(255, 255, 255, 0.25); /* Transparent white button */
-            color: #ffffff;
-            padding: 12px 15px;
-            margin: 12px 0;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background-color 0.3s, transform 0.2s;
-
-            /* Using Flexbox to align icon and text */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .links-container a:hover {
-            background-color: rgba(255, 255, 255, 0.5);
-            transform: scale(1.05);
-        }
-        
-        /* Style for the icons/images inside the buttons */
-        .link-icon {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 15px; /* Space between icon and text */
-        }
-
-        /* Primary CTA button stands out */
-        .links-container a.primary {
-            background-color: #ffffff;
-            color: #d93b83; /* Dark pink text color */
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-        }
-
+        body{font-family:'Poppins',sans-serif;color:#ffffff;margin:0;padding:20px;min-height:100vh;background-image:url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1912&auto=format&fit=crop');background-size:cover;background-position:center;background-attachment:fixed;display:flex;justify-content:center;align-items:center;}
+        .container{max-width:380px;width:100%;background-color:rgba(255, 105, 180, 0.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:25px;padding:30px;text-align:center;border:2px solid rgba(255, 255, 255, 0.5);box-shadow:0 10px 30px rgba(0, 0, 0, 0.3);}
+        .profile-pic{width:110px;height:110px;border-radius:50%;border:4px solid #ffffff;object-fit:cover;margin-bottom:15px;}
+        .username{font-size:1.6rem;font-weight:700;margin-bottom:5px;text-shadow:1px 1px 5px rgba(0,0,0,0.2);}
+        .bio{font-size:0.95rem;margin-bottom:30px;font-weight:400;}
+        .links-container a{background-color:rgba(255, 255, 255, 0.25);color:#ffffff;padding:12px 15px;margin:12px 0;border-radius:12px;text-decoration:none;font-weight:600;transition:background-color 0.3s, transform 0.2s;display:flex;align-items:center;justify-content:center;}
+        .links-container a:hover{background-color:rgba(255, 255, 255, 0.5);transform:scale(1.05);}
+        .link-icon{width:30px;height:30px;border-radius:50%;object-fit:cover;margin-right:15px;}
+        .links-container a.primary{background-color:#ffffff;color:#d93b83;box-shadow:0 0 20px rgba(255, 255, 255, 0.5);}
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- EDIT THIS SECTION TO YOUR NEEDS -->
+        <!-- INI BAGIAN YANG SUDAH DIUPDATE -->
         <img src="https://i.ibb.co/3kMZsLq/profile-jessica.jpg" alt="Profile Picture" class="profile-pic">
-        <h1 class="username">Jessica, 24</h1>
-        <p class="bio">Don't just stare, let's get to know each other better. Click my links below! 😉</p>
+        <h1 class="username">Jessica 😈</h1>
+        <p class="bio">Feeling lonely tonight? I'm online and waiting for you. Prove you're not shy... 😉</p>
 
         <div class="links-container">
             <!--
-                - Replace # with your Adsterra direct link.
-                - Replace the src="..." in the <img> tag with your icon's URL.
+                - Ganti # dengan link Adsterra lo.
+                - Teks dan emoji ini dirancang untuk CTR tinggi.
             -->
             <a href="#" class="primary">
                 <img src="https://i.ibb.co/Rpj5fM4/video-play.png" alt="video icon" class="link-icon">
-                NEW VIDEO (TODAY ONLY)
+                Warning: My Steamiest Video Yet 🥵
             </a>
             <a href="#">
                 <img src="https://i.ibb.co/68v8zct/chat.png" alt="chat icon" class="link-icon">
-                CHAT WITH ME PRIVATELY
+                Let's Have a Naughty Chat 🤫
             </a>
             <a href="#">
                 <img src="https://i.ibb.co/mG7XwZ1/telegram.png" alt="telegram icon" class="link-icon">
-                JOIN MY EXCLUSIVE TELEGRAM
+                Access My UNCENSORED Content 🔞
             </a>
             <a href="#">
                 <img src="https://i.ibb.co/PQtst6B/instagram.png" alt="instagram icon" class="link-icon">
-                SEE MY STORIES & MORE PHOTOS
+                My SPICY Photo Gallery 🌶️
             </a>
         </div>
-        <!-- END OF THE SECTION TO EDIT -->
+        <!-- AKHIR BAGIAN UPDATE -->
     </div>
 
 </body>
