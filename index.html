@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kenalan Yuk!</title>
+    <title>Nice to Meet You!</title>
     <style>
-        /* CSS untuk tampilan */
+        /* CSS for the layout */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
         body {
@@ -15,11 +15,11 @@
             padding: 20px;
             min-height: 100vh;
             
-            /* --- GANTI BACKGROUND DI SINI --- */
+            /* --- CHANGE BACKGROUND HERE --- */
             background-image: url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1912&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
-            background-attachment: fixed; /* Membuat background tidak ikut scroll */
+            background-attachment: fixed; /* Keeps the background from scrolling */
             
             display: flex;
             justify-content: center;
@@ -30,9 +30,9 @@
             max-width: 380px;
             width: 100%;
             
-            /* --- GANTI WARNA BOX DI SINI --- */
-            background-color: rgba(255, 105, 180, 0.85); /* Warna pink dengan sedikit transparansi */
-            backdrop-filter: blur(10px); /* Efek blur untuk background di belakang box */
+            /* --- CHANGE BOX COLOR HERE --- */
+            background-color: rgba(255, 105, 180, 0.85); /* Pink color with slight transparency */
+            backdrop-filter: blur(10px); /* Blur effect for the background behind the box */
             -webkit-backdrop-filter: blur(10px);
 
             border-radius: 25px;
@@ -46,7 +46,7 @@
             width: 110px;
             height: 110px;
             border-radius: 50%;
-            border: 4px solid #ffffff; /* Border putih agar kontras dengan box pink */
+            border: 4px solid #ffffff; /* White border for contrast */
             object-fit: cover;
             margin-bottom: 15px;
         }
@@ -65,7 +65,7 @@
         }
 
         .links-container a {
-            background-color: rgba(255, 255, 255, 0.25); /* Tombol putih transparan */
+            background-color: rgba(255, 255, 255, 0.25); /* Transparent white button */
             color: #ffffff;
             padding: 12px 15px;
             margin: 12px 0;
@@ -74,7 +74,7 @@
             font-weight: 600;
             transition: background-color 0.3s, transform 0.2s;
 
-            /* Menggunakan Flexbox untuk menata ikon dan teks */
+            /* Using Flexbox to align icon and text */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -85,19 +85,19 @@
             transform: scale(1.05);
         }
         
-        /* Style untuk ikon/gambar di dalam tombol */
+        /* Style for the icons/images inside the buttons */
         .link-icon {
             width: 30px;
             height: 30px;
             border-radius: 50%;
             object-fit: cover;
-            margin-right: 15px; /* Jarak antara ikon dan teks */
+            margin-right: 15px; /* Space between icon and text */
         }
 
-        /* Tombol CTA utama dibuat beda agar lebih menonjol */
+        /* Primary CTA button stands out */
         .links-container a.primary {
             background-color: #ffffff;
-            color: #d93b83; /* Warna teks pink tua */
+            color: #d93b83; /* Dark pink text color */
             box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
         }
 
@@ -106,34 +106,34 @@
 <body>
 
     <div class="container">
-        <!-- GANTI BAGIAN INI SESUAI KEBUTUHAN -->
-        <img src="https://i.ibb.co/2gchj6Y/profile.jpg" alt="Foto Profil" class="profile-pic">
-        <h1 class="username">Amanda, 23</h1>
-        <p class="bio">Jangan diliatin aja, yuk kenalan lebih deket. Klik link di bawah ya! 👇</p>
+        <!-- EDIT THIS SECTION TO YOUR NEEDS -->
+        <img src="https://i.ibb.co/3kMZsLq/profile-jessica.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 class="username">Jessica, 24</h1>
+        <p class="bio">Don't just stare, let's get to know each other better. Click my links below! 😉</p>
 
         <div class="links-container">
             <!--
-                - Ganti tanda # dengan link tujuan Adsterra kamu.
-                - Ganti src="..." pada <img> dengan URL ikon/gambar kecil kamu.
+                - Replace # with your Adsterra direct link.
+                - Replace the src="..." in the <img> tag with your icon's URL.
             -->
             <a href="#" class="primary">
-                <img src="https://i.ibb.co/Rpj5fM4/video-play.png" alt="ikon video" class="link-icon">
-                VIDEO BARU (KHUSUS HARI INI)
+                <img src="https://i.ibb.co/Rpj5fM4/video-play.png" alt="video icon" class="link-icon">
+                NEW VIDEO (TODAY ONLY)
             </a>
             <a href="#">
-                <img src="https://i.ibb.co/68v8zct/chat.png" alt="ikon chat" class="link-icon">
-                CHAT PRIBADI SAMA AKU
+                <img src="https://i.ibb.co/68v8zct/chat.png" alt="chat icon" class="link-icon">
+                CHAT WITH ME PRIVATELY
             </a>
             <a href="#">
-                <img src="https://i.ibb.co/mG7XwZ1/telegram.png" alt="ikon telegram" class="link-icon">
-                JOIN GRUP TELEGRAM EKSKLUSIF
+                <img src="https://i.ibb.co/mG7XwZ1/telegram.png" alt="telegram icon" class="link-icon">
+                JOIN MY EXCLUSIVE TELEGRAM
             </a>
             <a href="#">
-                <img src="https://i.ibb.co/PQtst6B/instagram.png" alt="ikon instagram" class="link-icon">
-                LIHAT STORY & FOTO LAINNYA
+                <img src="https://i.ibb.co/PQtst6B/instagram.png" alt="instagram icon" class="link-icon">
+                SEE MY STORIES & MORE PHOTOS
             </a>
         </div>
-        <!-- AKHIR BAGIAN YANG PERLU DIGANTI -->
+        <!-- END OF THE SECTION TO EDIT -->
     </div>
 
 </body>
